@@ -1,0 +1,64 @@
+http://codeschool.github.io/BlastingOffWithBootstrapDemo/images/img-header.jpg
+
+<a href='about.html' data-target='#' data-toggle='dropdown'>
+  About<span class='caret'></span></a>
+
+
+  thsi is coz, if the users have js enabled , they can view the dropdown as mentioned in data toggle and
+  the target stays in same page -#
+  if the users have js disable,they will be redirected to about.html to proceed further.
+
+  Responsive Griding
+
+    -   medium size - laptops screen
+        col-md-*
+        col-md-offset-*
+        992px +
+
+    -   small size - tablet screen
+        col-sm-*
+        col-sm-offset-*
+        768px+
+    -   etra small size - mobile screen
+        col-xs-*
+        col-xs-offset-*
+        0px+
+
+
+
+  - very large screens - big monitors
+        col-lg-*
+        col-lg-offset-*
+        1200px+
+
+- to hide images
+    hidden-sm , hidden-xs etc
+-to only show images for
+    visible-md, visible-lg etc
+
+
+well-lg -- if needed more padding
+well-sm -- if needed less padding
+
+
+btn-lg  --- to inc size of  button
+we also have xs,sm,lg
+
+we have different coloured buttons
+btn - default,primary,success,info,danger,warning
+
+
+navigation :
+
+class = ' nav nav-pills' ----> highlighted the selected navigation
+        ' nav nav-tabs'  ----> tabs for the navigation options
+        'nav navbar-nav'  -----> makes the nav list inline
+        'nav navbar-nav navbar-right'  ----> keeps the navigation menu to the right of the screen
+
+
+navbar-inverse -----> for dark color themes
+
+navbar-static-top ---> navbar at the top most corner of page
+navbar-static-top  ----> navbar at the bottom most corner of page
+navbar-fixed-top   ---> these nav bars don move as yu scroll the page
+navbar-fixed-bottom --->
